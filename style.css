@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Kanit&family=Lato&family=Lobster&family=Montserrat&family=Noto+Sans+JP&family=Nunito+Sans:opsz@6..12&family=Open+Sans&family=Poppins:wght@300&family=Preahvihear&family=Roboto+Mono&display=swap');
+
+*{
+    margin : 0px;
+    padding : 0px;
+    overflow-x : hidden;
+}
+
+#page1
+{
+    height : 300vh;
+    width : 100%;
+    background: #BD9639;
+    background: radial-gradient(at left top,#02A04C,#204795);
+}
+
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll; 
+}
+  
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#leaf2
+{
+    position: absolute;
+    right: 0;
+}
+
+#sprite2
+{
+    height : 68%;
+    position : absolute;
+    top : 22%;
+    left : 32%;
+    z-index : 4;
+}
+
+.main-heading
+{
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-weight : 900;
+    font-size : 2800%;
+    margin-left : 40px;
+    position: absolute;
+    top : 15%;
+    color : #F7D704;
+    overflow : hidden;
+    cursor : context-menu;
+    z-index : 2;
+}
+
+.sprite-icon
+{
+    position : absolute;
+    top : -1%;
+    left : 5%;
+    z-index : 100;
+    height : 20%;
+    transform : rotate(36deg);
+    cursor : context-menu;
+}
+
+#lemonSlice1
+{
+    height : 30%;
+    position : absolute;
+    left : 36%;
+    top : 13%;
+    z-index : 3;
+}
+
+#lemons
+{
+    position : absolute;
+    height : 34%;
+    top : 65%;
+    left : 50%;
+    z-index : 5;
+}
+
+.navbar p
+{
+    list-style-type : none;
+    position : relative;
+    margin-left : 50px;
+    margin-right : 50px;
+    font-weight : bold;
+    font-size : 20px;
+    color : white;
+    overflow : hidden;
+    cursor : pointer;
+}
+
+.navbar
+{
+    position : absolute;
+    width : 100%;
+    top : 5.5%;
+    font-family: 'Preahvihear', sans-serif;
+}
+
+.menu
+{
+    color : white;
+    position: absolute;
+    right : 8%;
+    top : 5%;
+    font-size : 40px;
+    z-index : 10;
+    overflow : hidden;
+    cursor : pointer;
+}
+
+#lemonSlice2
+{
+    position : absolute;
+    top : 73%;
+    transform : rotate(80deg);
+    left : -3%;
+}
+
+#leaf3
+{
+    position : absolute;
+    height : 40%;
+    top : 10%;
+    transform : rotate(15deg);
+    left : -3%;
+}
+
+#page1Sub
+{
+    height : 100vh;
+    width : 100%;
+    position : absolute;
+    top : 100vh;
+}
+
+.firstQuote,.secondQuote
+{
+    font-size : 50px;
+    overflow : hidden;
+    position : relative;
+    top : 23%;
+    font-family: 'Kanit', sans-serif;
+    font-weight : bold;
+    margin-left : 40px;
+    color : white;
+}
+
+.text-gradient
+{
+    background: linear-gradient(45deg,#204795, #02A04C,#F7D704,#FFFFFF,#DEDEDF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#leaf1
+{
+    position : absolute;
+    top : 50%;
+    right : 10%;
+    transform : rotate(80deg);
+    height : 40%;
+    z-index : 5;
+}
+
+#sprite1
+{
+    position : absolute;
+    right : 6%;
+    top : 14%;
+    transform : rotate(10deg);
+    height : 60%;
+}
+
+.secondpage-p
+{
+    position : absolute;
+    color : #F7D704;
+    top : 53%;
+    font-family: 'Roboto Mono', monospace;
+    margin-left : 58px;
+    font-size : 23.5px;
+    font-weight : bold;
+}
+
+.secondpage-secp
+{
+    position : absolute;
+    top : 58%;
+    color : #F7D704;
+    text-align : right;
+    left : 27%;
+    width : 400px;
+    font-size : 25px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight : bold;
+}
+
+#page2Sub
+{
+    height : 100vh;
+    width : 100%;
+    position : absolute;
+    top : 200vh;
+    overflow : hidden;
+}
+
+.glass-morph-1,.glass-morph-2,.glass-morph-3
+{
+    background: rgba( 255, 255, 255, 0.2 );
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height : 500px;
+    width : 350px;
+    margin-left : 30px;
+    margin-right : 30px;
+    margin-top : 250px;
+}
+
+#fanta
+{
+    position : absolute;
+    height : 58%;
+    margin-top : 115px;
+    left : 2.5%;
+    z-index : 2;
+}
+
+#sevenup
+{
+    position : absolute;
+    height : 60%;
+    margin-top : 109px;
+    right :-5.9%;
+    z-index : 1;
+}
+
+#fantaOrangeSlice
+{
+    position : absolute;
+    height : 37%;
+    top : 5%;
+    left : 12.5%;
+    z-index : 1;
+}
+
+#sevenupLemonSlice
+{
+    position : absolute;
+    height : 36%;
+    right : 13%;
+    top : 5%;
+    z-index : 0;
+}
+
+.gm-fanta
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size : 40px;
+    position: relative;
+    top : 68%;
+    text-align : center;
+    font-weight : bold;
+    color : white;
+}
+
+.gm-buynow
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    position : relative;
+    top : 69%;
+    width : 44%;
+    left : 28%;
+    height : 45px;
+    border-width : 0px;
+    color : white;
+    font-weight : bold;
+    border-radius : 35px;
+}
+
+.gm-fanta-buynow
+{
+    background-image : linear-gradient(45deg,#F94001,#F96209,#F4730B,#F68A06,#ED9D0B);
+}
+
+.gm-sprite-buynow
+{
+    background-image : linear-gradient(135deg,#204795,#02A04C);
+}
+
+.gm-7up-buynow
+{
+    background-image : linear-gradient(135deg,#010203,#014122,#018141,#00C060,#00FF7F);
+}
